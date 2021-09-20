@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import "./MessageSender.css";
 import { useStateValue } from './StateProvider';
 import db from "./firebase";
-import firebase from "firebase";
+import firebase from "firebase/compat";
 
 function MessageSender() {
     const [{ user }, dispatch] = useStateValue();

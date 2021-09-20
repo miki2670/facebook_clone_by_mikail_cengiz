@@ -1,4 +1,4 @@
-import firebase from "firebase";
+import firebase from "firebase/compat/";
 /* USING FIREBASE VERSION 7.19.0 
   npm install firebase@^7.19.0 --save
 */
